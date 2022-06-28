@@ -10,10 +10,10 @@ const App = () => {
   };
 
   return (
-    <div>
+    <>
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={users}></UsersList>
-    </div>
+    </>
   );
 };
 
